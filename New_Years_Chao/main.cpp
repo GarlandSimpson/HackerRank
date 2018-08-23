@@ -22,8 +22,8 @@ int main()
 {
 	vector<int> q = { 2, 5, 1, 3, 4 }; // should be "Two chaotic"
 	// vector<int> q = { 2, 1, 5, 3, 4 } // should be 3 swaps 
-        // vector<int> q = { 5, 1, 2, 3, 7, 8, 6, 4 } // should be "Too chaotic" 
-        // vector<int> q = { 1, 2, 5, 3, 7, 8, 6, 4 } // should be "Too chaotic"
+       // vector<int> q = { 5, 1, 2, 3, 7, 8, 6, 4 } // should be "Too chaotic" 
+       // vector<int> q = { 1, 2, 5, 3, 7, 8, 6, 4 } // should be "Too chaotic"
 
 	int swap_count = 0;
 	int n = static_cast<int>(q.size());
